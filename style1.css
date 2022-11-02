@@ -1,0 +1,173 @@
+
+html,body{
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+.box {
+height:100%;
+ width: 100%;
+  background-color:whitesmoke;
+align-items: center;
+}
+.box h2{
+    font-family: 'Acme', sans-serif;
+   text-align: center;
+    color: rgb(6, 6, 10);
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 6px 5px 5px rgb(24, 23, 23);
+}
+.box p{
+    max-width: 1300px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+.ball1{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: wheat;
+    box-shadow: 5px 5px 4px rgb(43, 42, 42);
+    bottom: 0;
+    left: 50px;
+    animation-name: move1;
+    position: absolute;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move1{
+    from{
+        background-color: white;
+        transform: translateY(0px);
+        
+    }
+    to{
+        background-color: rgb(110, 105, 105);
+        transform: translateY(-600px);
+        
+    }
+}
+.ball2{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:whitesmoke
+    box-shadow: 5px 5px 4px rgb(43, 42, 42);
+    bottom: 0;
+    left: 900px;
+    animation-name: move2;
+    position: absolute;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move2{
+    from{
+        background-color: rgb(44, 42, 42);
+        transform: translateY(0px);
+        
+    }
+    to{
+        background-color: rgb(172, 89, 89);
+        transform: translateY(-500px);
+        
+    }
+}
+.ball3{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+    box-shadow: 5px 5px 4px rgb(43, 42, 42);
+    bottom: 0;
+    left: 300px;
+    animation-name: move3;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move3{
+    from{
+        background-color: rgb(26, 63, 187);
+        transform: translateY(0px);
+        
+    }
+    to{
+        background-color: rgb(59, 15, 231);
+        transform: translateY(-500px);
+        
+    }
+}
+
+.ball4{
+
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: wheat;
+    box-shadow: 5px 5px 4px rgb(43, 42, 42);
+    bottom: 0;
+    left: 600px;
+    animation-name: move4;
+    position: absolute;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move4{
+    from{
+        background-color: rgb(230, 152, 36);
+        transform: translateY(0px);
+        
+    }
+    to{
+        background-color: rgb(90, 84, 7);
+        transform: translateY(-450px);
+        
+    }
+}
+
+.ball5{
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: wheat;
+    box-shadow: 5px 5px 4px rgb(43, 42, 42);
+    bottom: 0;
+    left: 1200px;
+    animation-name: move5;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes move5{
+    from{
+        background-color: rgb(19, 231, 132);
+        transform: translateY(0px);
+        
+        
+    }
+    to{
+        background-color: rgb(46, 83, 52);
+        transform: translateY(-450px);
+     
+    }
+}
+
+
+
+
+
+
